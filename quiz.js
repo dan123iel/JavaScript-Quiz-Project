@@ -3,17 +3,17 @@ let currentQuestionIndex = 0;
 
 let questions = [
     {
-        question: "Was ist die Hauptstadt von Deutschland?",
+        question: "What is the capital of Germany?",
         answers: ["Paris","London","Berlin","Madrid"],
         correctAnswer: 2
     },
     {
-        question: "Welche Farbe hat eine Zitrone?",
-        answers: ["Gelb","Blau","Grün","Rot"],
+        question: "Which color has a lemon?",
+        answers: ["Yellow","Blue","Green","Red"],
         correctAnswer: 0
     },
     {
-        question: "Wie viele Beine hat ein Hund?",
+        question: "How many legs has a dog?",
         answers: ["2","6","8","4"],
         correctAnswer: 3
     }
@@ -60,4 +60,3 @@ function checkAnswer(userAnswer){
 function nextQuestion(){
     currentQuestionIndex += 1;
     displayQuestion();
-}
